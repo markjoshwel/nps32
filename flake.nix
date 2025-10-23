@@ -17,7 +17,7 @@
             git
             git-lfs
             git-filter-repo
-            (python312.withPackages (python-pkgs: [
+            (python313.withPackages (python-pkgs: [
               python-pkgs.tqdm
             ]))
           ];
